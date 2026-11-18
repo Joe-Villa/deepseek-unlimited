@@ -1,0 +1,24 @@
+# Gradle / Android build output
+build/
+.gradle/
+.kotlin/
+*.iml
+.idea/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local toolchains and vendored sources (never committed)
+vendor/
+
+# OS noise
+.DS_Store
+Thumbs.db
+.robolectric-home/
+
+# Private/local working files (never committed)
+file/
+*.log
+*.idsig
+dist/

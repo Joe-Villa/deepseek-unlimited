@@ -1,0 +1,125 @@
+package dev.chungjungsoo.gptmobile.data.dto.openai.response
+
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.JsonElement
+
+@Serializable
+data class ChatCompletionChunk(
+    @SerialName("id")
+    val id: String? = null,
+
+    @SerialName("object")
+    val objectType: String? = null,
+
+    @SerialName("created")
+    val created: Long? = null,
+
+    @SerialName("model")
+    val model: String? = null,
+
+    @SerialName("choices")
+    val choices: List<Choice>? = null,
+
+    @SerialName("usage")
+    val usage: ChatCompletionUsage? = null,
+
+    @SerialName("error")
+    val error: ErrorDetail? = null
+)
+
+@Serializable
+data class Choice(
+    @SerialName("index")
+    val index: Int,
+
+    @SerialName("delta")
+    val delta: Delta = Delta(),
+
+    @SerialName("finish_reason")
+    val finishReason: String? = null,
+
+    @SerialName("server_tool_event")
+    val serverToolEvent: JsonElement? = null
+)
+
+@Serializable
+data class Delta(
+    @SerialName("role")
+    val role: String? = null,
+
+    @SerialName("content")
+    val content: String? = null,
+
+    @SerialName("reasoning")
+    val reasoning: String? = null,
+
+    @SerialName("reasoning_content")
+    val reasoningContent: String? = null,
+
+    @SerialName("tool_calls")
+    val toolCalls: List<ChatToolCallDelta>? = null,
+
+    @SerialName("server_tool_calls")
+    val serverToolCalls: JsonElement? = null,
+
+    @SerialName("annotations")
+    val annotations: JsonElement? = null,
+
+    @SerialName("title")
+    val title: String? = null
+)
+
+@Serializable
+data class ChatToolCallDelta(
+    // Some compatible routers omit index on the delta that carries the function name.
+    @SerialName("index")
+    val index: Int? = null,
+    @SerialName("id")
+    val id: String? = null,
+    @SerialName("type")
+    val type: String? = null,
+    @SerialName("function")
+    val function: ChatFunctionDelta? = null
+)
+
+@Serializable
+data class ChatFunctionDelta(
+    @SerialName("name")
+    val name: String? = null,
+    @SerialName("arguments")
+    val arguments: String? = null
+)
+
+@Serializable
+data class ErrorDetail(
+    @SerialName("message")
+    val message: String,
+
+    @SerialName("type")
+    val type: String? = null,
+
+    @SerialName("code")
+    val code: String? = null
+)
+
+@Serializable
+data class ChatCompletionUsage(
+    @SerialName("prompt_tokens")
+    val promptTokens: Int? = null,
+
+    @SerialName("completion_tokens")
+    val completionTokens: Int? = null,
+
+    @SerialName("total_tokens")
+    val totalTokens: Int? = null,
+
+    @SerialName("prompt_tokens_details")
+    val promptTokensDetails: PromptTokensDetails? = null
+)
+
+@Serializable
+data class PromptTokensDetails(
+    @SerialName("cached_tokens")
+    val cachedTokens: Int? = null
+)

@@ -1,0 +1,27 @@
+{
+  "default": "system",
+  "languages": [
+    {"tag":"system","android":"values","native":"Follow system","english":"System default"},
+    {"tag":"en","android":"values","native":"English","english":"English"},
+    {"tag":"zh-CN","android":"values-zh-rCN","native":"简体中文","english":"Chinese (Simplified)"},
+    {"tag":"zh-TW","android":"values-zh-rTW","native":"繁體中文","english":"Chinese (Traditional)"},
+    {"tag":"ja","android":"values-ja","native":"日本語","english":"Japanese"},
+    {"tag":"ko","android":"values-ko","native":"한국어","english":"Korean"},
+    {"tag":"fr","android":"values-fr","native":"Français","english":"French"},
+    {"tag":"de","android":"values-de","native":"Deutsch","english":"German"},
+    {"tag":"es","android":"values-es","native":"Español","english":"Spanish"},
+    {"tag":"pt-BR","android":"values-pt-rBR","native":"Português (Brasil)","english":"Portuguese (Brazil)"},
+    {"tag":"ru","android":"values-ru","native":"Русский","english":"Russian"},
+    {"tag":"ar","android":"values-ar","native":"العربية","english":"Arabic"},
+    {"tag":"hi","android":"values-hi","native":"हिन्दी","english":"Hindi"},
+    {"tag":"id","android":"values-in","native":"Bahasa Indonesia","english":"Indonesian"},
+    {"tag":"it","android":"values-it","native":"Italiano","english":"Italian"},
+    {"tag":"th","android":"values-th","native":"ไทย","english":"Thai"},
+    {"tag":"vi","android":"values-vi","native":"Tiếng Việt","english":"Vietnamese"},
+    {"tag":"tr","android":"values-tr","native":"Türkçe","english":"Turkish"},
+    {"tag":"nl","android":"values-nl","native":"Nederlands","english":"Dutch"},
+    {"tag":"pl","android":"values-pl","native":"Polski","english":"Polish"},
+    {"tag":"uk","android":"values-uk","native":"Українська","english":"Ukrainian"},
+    {"tag":"fa","android":"values-fa","native":"فارسی","english":"Persian"}
+  ]
+}

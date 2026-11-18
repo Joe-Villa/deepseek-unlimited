@@ -1,0 +1,646 @@
+{
+  "ds_read_aloud": {
+    "en": "Read aloud",
+    "zh-CN": "朗读回答"
+  },
+  "ds_cancel": {
+    "en": "Cancel",
+    "zh-CN": "取消"
+  },
+  "ds_delete": {
+    "en": "Delete",
+    "zh-CN": "删除"
+  },
+  "ds_close": {
+    "en": "Close",
+    "zh-CN": "关闭"
+  },
+  "ds_settings": {
+    "en": "Settings",
+    "zh-CN": "设置"
+  },
+  "ds_new_chat": {
+    "en": "New chat",
+    "zh-CN": "新对话"
+  },
+  "ds_save": {
+    "en": "Save",
+    "zh-CN": "保存"
+  },
+  "ds_back": {
+    "en": "Back",
+    "zh-CN": "返回"
+  },
+  "ds_home_greeting": {
+    "en": "Hello, what would you like to talk about?",
+    "zh-CN": "你好，今天想聊点什么？"
+  },
+  "ds_home_ai_footer": {
+    "en": "AI-generated, for reference only",
+    "zh-CN": "回答由 AI 生成，仅供参考"
+  },
+  "ds_home_no_answer": {
+    "en": "No answer to read yet.",
+    "zh-CN": "还没有可朗读的回答"
+  },
+  "ds_home_delete_title": {
+    "en": "Delete conversation(s)?",
+    "zh-CN": "删除对话？"
+  },
+  "ds_home_delete_message": {
+    "en": "Delete the selected %1$d conversation(s)? This cannot be undone.",
+    "zh-CN": "将删除选中的 %1$d 个对话，无法恢复。"
+  },
+  "ds_home_load_failed": {
+    "en": "Failed to load conversations",
+    "zh-CN": "对话加载失败"
+  },
+  "ds_home_empty_title": {
+    "en": "No conversations yet",
+    "zh-CN": "还没有对话"
+  },
+  "ds_home_empty_desc": {
+    "en": "Start a chat below.",
+    "zh-CN": "从下方开始第一段聊天。"
+  },
+  "ds_home_no_search_title": {
+    "en": "No matching conversations",
+    "zh-CN": "没有找到相关对话"
+  },
+  "ds_home_no_search_desc": {
+    "en": "Try another keyword.",
+    "zh-CN": "换个关键词试试。"
+  },
+  "ds_home_search_hint": {
+    "en": "Search conversations…",
+    "zh-CN": "搜索对话内容…"
+  },
+  "ds_home_search_results": {
+    "en": "Search results",
+    "zh-CN": "搜索结果"
+  },
+  "ds_home_select_chats": {
+    "en": "Select conversations",
+    "zh-CN": "选择对话"
+  },
+  "ds_home_exit_selection": {
+    "en": "Exit selection",
+    "zh-CN": "退出选择"
+  },
+  "ds_home_selected_count": {
+    "en": "%1$d selected",
+    "zh-CN": "已选 %1$d 个"
+  },
+  "ds_today": {
+    "en": "Today",
+    "zh-CN": "今天"
+  },
+  "ds_yesterday": {
+    "en": "Yesterday",
+    "zh-CN": "昨天"
+  },
+  "ds_last_7_days": {
+    "en": "Last 7 days",
+    "zh-CN": "7 天内"
+  },
+  "ds_older": {
+    "en": "Older",
+    "zh-CN": "更早"
+  },
+  "ds_chat_no_answer": {
+    "en": "No answer to read yet.",
+    "zh-CN": "还没有可朗读的回答"
+  },
+  "ds_chat_tts_preparing": {
+    "en": "The speech engine is still preparing.",
+    "zh-CN": "语音引擎还在准备中"
+  },
+  "ds_chat_ai_footer": {
+    "en": "AI-generated, for reference only",
+    "zh-CN": "回答由 AI 生成，仅供参考"
+  },
+  "ds_chat_fork": {
+    "en": "Fork chat",
+    "zh-CN": "Fork 对话"
+  },
+  "ds_chat_input_hint": {
+    "en": "Message or hold to speak",
+    "zh-CN": "发消息或按住说话"
+  },
+  "ds_chat_deep_thinking": {
+    "en": "Deep thinking",
+    "zh-CN": "深度思考"
+  },
+  "ds_chat_smart_search": {
+    "en": "Smart search",
+    "zh-CN": "智能搜索"
+  },
+  "ds_chat_add_attachment": {
+    "en": "Add attachment",
+    "zh-CN": "添加附件"
+  },
+  "ds_chat_voice_input": {
+    "en": "Voice input",
+    "zh-CN": "语音输入"
+  },
+  "ds_chat_voice_prompt": {
+    "en": "Say what you want to say",
+    "zh-CN": "说出你想说的话"
+  },
+  "ds_chat_voice_unavailable": {
+    "en": "No speech recognition service available.",
+    "zh-CN": "没有可用的语音识别服务"
+  },
+  "ds_chat_camera": {
+    "en": "Camera",
+    "zh-CN": "拍照"
+  },
+  "ds_chat_gallery": {
+    "en": "Gallery",
+    "zh-CN": "相册"
+  },
+  "ds_chat_file": {
+    "en": "File",
+    "zh-CN": "文件"
+  },
+  "ds_chat_thinking": {
+    "en": "Thinking…",
+    "zh-CN": "正在思考…"
+  },
+  "ds_chat_thought_done": {
+    "en": "Deep thinking",
+    "zh-CN": "已深度思考"
+  },
+  "ds_chat_liked": {
+    "en": "Helpful",
+    "zh-CN": "有帮助"
+  },
+  "ds_chat_disliked": {
+    "en": "Not helpful",
+    "zh-CN": "没帮助"
+  },
+  "ds_chat_share": {
+    "en": "Share answer",
+    "zh-CN": "分享回答"
+  },
+  "ds_chat_fork_failed": {
+    "en": "Fork failed",
+    "zh-CN": "Fork 失败"
+  },
+  "ds_web_reading": {
+    "en": "Reading pages…",
+    "zh-CN": "正在阅读网页…"
+  },
+  "ds_web_searching": {
+    "en": "Searching the web…",
+    "zh-CN": "正在联网搜索…"
+  },
+  "ds_web_summary_both": {
+    "en": "Searched %1$d times · read %2$d pages",
+    "zh-CN": "已联网搜索 %1$d 次 · 阅读 %2$d 个网页"
+  },
+  "ds_web_summary_search": {
+    "en": "Searched %1$d times",
+    "zh-CN": "已联网搜索 %1$d 次"
+  },
+  "ds_web_summary_pages": {
+    "en": "Read %1$d pages",
+    "zh-CN": "已阅读 %1$d 个网页"
+  },
+  "ds_web_done": {
+    "en": "Web search complete",
+    "zh-CN": "已联网"
+  },
+  "ds_web_pages_count": {
+    "en": "%1$d pages",
+    "zh-CN": "%1$d 个网页"
+  },
+  "ds_web_results": {
+    "en": "Search results",
+    "zh-CN": "搜索结果"
+  },
+  "ds_web_queries": {
+    "en": "Queries",
+    "zh-CN": "搜索词"
+  },
+  "ds_web_sources": {
+    "en": "Sources",
+    "zh-CN": "来源"
+  },
+  "ds_setup_subtitle": {
+    "en": "Paste your API key to get started.",
+    "zh-CN": "把 API Key 贴进来，就可以开始了。"
+  },
+  "ds_setup_local": {
+    "en": "Conversations stay on this phone.",
+    "zh-CN": "对话只保存在这台手机上"
+  },
+  "ds_setup_key_label": {
+    "en": "Key",
+    "zh-CN": "钥匙"
+  },
+  "ds_setup_key_hint": {
+    "en": "A long string starting with sk-",
+    "zh-CN": "以 sk- 开头的一长串字符"
+  },
+  "ds_setup_get_key": {
+    "en": "No key yet? Watch the 30-second tutorial",
+    "zh-CN": "还没有 Key？看 30 秒获取教程"
+  },
+  "ds_setup_saving": {
+    "en": "Saving…",
+    "zh-CN": "正在保存…"
+  },
+  "ds_setup_start": {
+    "en": "Start",
+    "zh-CN": "开始使用"
+  },
+  "ds_setup_key_footer": {
+    "en": "Your API key only lives on your phone.",
+    "zh-CN": "你的 API Key 只存在自己的手机里。"
+  },
+  "ds_setup_empty_key": {
+    "en": "Paste your key first.",
+    "zh-CN": "先把钥匙贴进来"
+  },
+  "ds_setup_bad_key": {
+    "en": "That key looks invalid. Please check it again.",
+    "zh-CN": "这把钥匙好像不对，再检查一下？"
+  },
+  "ds_setup_save_failed": {
+    "en": "Could not save: %1$s",
+    "zh-CN": "没能保存：%1$s"
+  },
+  "ds_archive_prepare_import": {
+    "en": "Preparing import…",
+    "zh-CN": "正在准备导入…"
+  },
+  "ds_archive_no_chats": {
+    "en": "No chat_sessions/*.json found in this ZIP.",
+    "zh-CN": "这个 ZIP 里没有找到 chat_sessions/*.json"
+  },
+  "ds_archive_importing": {
+    "en": "Importing conversations…",
+    "zh-CN": "正在导入对话…"
+  },
+  "ds_archive_nothing_export": {
+    "en": "No conversations to export.",
+    "zh-CN": "本机还没有可导出的对话"
+  },
+  "ds_archive_write_failed": {
+    "en": "Could not write this file.",
+    "zh-CN": "无法写入这个文件"
+  },
+  "ds_archive_exporting": {
+    "en": "Exporting conversations…",
+    "zh-CN": "正在导出对话…"
+  },
+  "ds_archive_need_key": {
+    "en": "Configure a DeepSeek API key first.",
+    "zh-CN": "请先在设置里配置 DeepSeek API Key"
+  },
+  "ds_archive_read_failed": {
+    "en": "Could not read this file.",
+    "zh-CN": "无法读取这个文件"
+  },
+  "ds_archive_completed": {
+    "en": "Done",
+    "zh-CN": "已完成"
+  },
+  "ds_archive_attachment_count": {
+    "en": "%1$d attachments",
+    "zh-CN": "%1$d 个附件"
+  },
+  "ds_archive_skipped": {
+    "en": "Skipped %1$d duplicate conversations",
+    "zh-CN": "跳过 %1$d 个重复对话"
+  },
+  "ds_archive_failed": {
+    "en": "%1$d failed",
+    "zh-CN": "失败 %1$d 个"
+  },
+  "ds_archive_summary": {
+    "en": "Done: %1$d conversations, %2$d messages",
+    "zh-CN": "已完成：%1$d 个对话，%2$d 条消息"
+  },
+  "ds_archive_read_zip": {
+    "en": "Reading ZIP…",
+    "zh-CN": "正在读取 ZIP…"
+  },
+  "ds_archive_import_failed": {
+    "en": "Import failed",
+    "zh-CN": "导入失败"
+  },
+  "ds_archive_prepare_export": {
+    "en": "Preparing export…",
+    "zh-CN": "正在准备导出…"
+  },
+  "ds_archive_export_failed": {
+    "en": "Export failed",
+    "zh-CN": "导出失败"
+  },
+  "ds_settings_app": {
+    "en": "App",
+    "zh-CN": "应用"
+  },
+  "ds_settings_language": {
+    "en": "Language",
+    "zh-CN": "语言"
+  },
+  "ds_settings_appearance": {
+    "en": "Appearance",
+    "zh-CN": "外观"
+  },
+  "ds_settings_dark": {
+    "en": "Dark",
+    "zh-CN": "深色"
+  },
+  "ds_settings_font_size": {
+    "en": "Font size",
+    "zh-CN": "字体大小"
+  },
+  "ds_settings_standard": {
+    "en": "Standard",
+    "zh-CN": "标准"
+  },
+  "ds_settings_voice": {
+    "en": "Voice",
+    "zh-CN": "语音"
+  },
+  "ds_settings_voice_tone": {
+    "en": "Read-aloud voice",
+    "zh-CN": "朗读音色"
+  },
+  "ds_settings_system_default": {
+    "en": "System default",
+    "zh-CN": "系统默认"
+  },
+  "ds_settings_connection": {
+    "en": "Connection",
+    "zh-CN": "连接"
+  },
+  "ds_settings_connected_local": {
+    "en": "Connected · stored only on this phone",
+    "zh-CN": "已连接 · 仅保存在本机"
+  },
+  "ds_settings_not_configured": {
+    "en": "Not configured · tap to add",
+    "zh-CN": "尚未配置 · 点击添加"
+  },
+  "ds_settings_not_configured_short": {
+    "en": "Not configured",
+    "zh-CN": "未配置"
+  },
+  "ds_settings_local_data": {
+    "en": "Local data",
+    "zh-CN": "本机数据"
+  },
+  "ds_settings_storage": {
+    "en": "Conversation storage",
+    "zh-CN": "对话存储"
+  },
+  "ds_settings_storage_desc": {
+    "en": "SQLite · local only, system backup disabled",
+    "zh-CN": "SQLite · 仅本机，禁止系统备份"
+  },
+  "ds_settings_chat_count": {
+    "en": "%1$d conversations",
+    "zh-CN": "%1$d 个对话"
+  },
+  "ds_settings_import": {
+    "en": "Import conversation ZIP",
+    "zh-CN": "导入对话 ZIP"
+  },
+  "ds_settings_import_desc": {
+    "en": "Parse a DeepSeek export and merge it into this phone",
+    "zh-CN": "DeepSeek 官方导出包，自动解析并合并到本机"
+  },
+  "ds_settings_export": {
+    "en": "Export all conversations",
+    "zh-CN": "导出所有对话"
+  },
+  "ds_settings_export_desc": {
+    "en": "Create a ZIP with the same structure as the official export, including local images",
+    "zh-CN": "生成与官方相同结构的 ZIP，包含本地图片"
+  },
+  "ds_settings_clear": {
+    "en": "Clear all conversations",
+    "zh-CN": "清空所有对话"
+  },
+  "ds_settings_clear_desc": {
+    "en": "Delete chats only; keep the API key",
+    "zh-CN": "只删除聊天记录，不删除 API Key"
+  },
+  "ds_settings_about": {
+    "en": "About",
+    "zh-CN": "关于"
+  },
+  "ds_settings_check_update": {
+    "en": "Check for updates",
+    "zh-CN": "检查更新"
+  },
+  "ds_settings_latest": {
+    "en": "You are on the latest version %1$s",
+    "zh-CN": "当前已是最新版本 %1$s"
+  },
+  "ds_settings_terms": {
+    "en": "Terms of service",
+    "zh-CN": "服务协议"
+  },
+  "ds_settings_about_disclaimer": {
+    "en": "About & disclaimer",
+    "zh-CN": "关于与免责声明"
+  },
+  "ds_settings_about_desc": {
+    "en": "Identity, cost, data and GPL-3.0",
+    "zh-CN": "身份、费用、数据与 GPL-3.0"
+  },
+  "ds_settings_model_name": {
+    "en": "Model: Deepseek Chat",
+    "zh-CN": "模型名称：Deepseek Chat"
+  },
+  "ds_settings_ai_footer": {
+    "en": "AI-generated, please verify.",
+    "zh-CN": "内容由 AI 生成，请仔细甄别"
+  },
+  "ds_settings_key_copied": {
+    "en": "API key copied",
+    "zh-CN": "API Key 已复制"
+  },
+  "ds_settings_key_updated": {
+    "en": "API key updated",
+    "zh-CN": "API Key 已更新"
+  },
+  "ds_settings_clear_title": {
+    "en": "Clear all conversations?",
+    "zh-CN": "清空所有对话？"
+  },
+  "ds_settings_clear_msg": {
+    "en": "This deletes %1$d conversations and all messages on this phone. The API key stays.",
+    "zh-CN": "将删除本机保存的 %1$d 个对话和全部消息，无法恢复。API Key 会保留。"
+  },
+  "ds_settings_cleared": {
+    "en": "Local conversations cleared",
+    "zh-CN": "已清空本机对话"
+  },
+  "ds_settings_clear_confirm": {
+    "en": "Clear",
+    "zh-CN": "清空"
+  },
+  "ds_settings_processing_zip": {
+    "en": "Processing ZIP…",
+    "zh-CN": "正在处理 ZIP…"
+  },
+  "ds_settings_parsing": {
+    "en": "Parsing files, please wait…",
+    "zh-CN": "正在解析文件，请稍候…"
+  },
+  "ds_settings_operation_done": {
+    "en": "Done",
+    "zh-CN": "操作完成"
+  },
+  "ds_settings_ok": {
+    "en": "OK",
+    "zh-CN": "知道了"
+  },
+  "ds_settings_operation_failed": {
+    "en": "Operation failed",
+    "zh-CN": "操作失败"
+  },
+  "ds_settings_no_account": {
+    "en": "No account, no cloud.",
+    "zh-CN": "没有账号，也没有云端。"
+  },
+  "ds_settings_local_only": {
+    "en": "Conversations and the API key stay on this phone. Uninstalling deletes them; switching phones does not sync them.",
+    "zh-CN": "对话和 API Key 只保存在这台手机上。卸载 App 会一起删除，换手机不会自动同步。"
+  },
+  "ds_settings_current_key": {
+    "en": "Current key",
+    "zh-CN": "当前 Key"
+  },
+  "ds_settings_copy_key": {
+    "en": "Copy API key",
+    "zh-CN": "复制 API Key"
+  },
+  "ds_settings_change_key": {
+    "en": "Change API key",
+    "zh-CN": "更换 API Key"
+  },
+  "ds_settings_paste_key": {
+    "en": "Paste a new sk-...",
+    "zh-CN": "粘贴新的 sk-..."
+  },
+  "ds_settings_key_local": {
+    "en": "The key is stored encrypted on this phone.",
+    "zh-CN": "Key 只保存在本机加密存储中。"
+  },
+  "ds_settings_key_invalid": {
+    "en": "It should start with sk- and be long enough.",
+    "zh-CN": "应以 sk- 开头，并且足够长"
+  },
+  "ds_language_title": {
+    "en": "Language",
+    "zh-CN": "语言"
+  },
+  "ds_language_system": {
+    "en": "Follow system",
+    "zh-CN": "跟随系统"
+  },
+  "ds_about_title": {
+    "en": "About",
+    "zh-CN": "关于"
+  },
+  "ds_about_badge": {
+    "en": "UNOFFICIAL · UNOFFICIAL",
+    "zh-CN": "UNOFFICIAL · 非官方"
+  },
+  "ds_about_headline": {
+    "en": "This is not DeepSeek's official app.",
+    "zh-CN": "这不是 DeepSeek\\n官方 App。"
+  },
+  "ds_about_intro": {
+    "en": "Read this page before deciding to use it.",
+    "zh-CN": "请先读完这一页，再决定是否继续使用。"
+  },
+  "ds_about_who_title": {
+    "en": "Who we are",
+    "zh-CN": "我们是谁"
+  },
+  "ds_about_who_body": {
+    "en": "DeepSeek Unlimited is a third-party open-source client. It is not affiliated with, endorsed by, or authorized by DeepSeek or Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd. “DeepSeek” is a trademark of its owner and is used here only to describe the connected API service. The whale artwork in the app is a placeholder; no official asset is included.",
+    "zh-CN": "DeepSeek 无限制版是一个第三方开源客户端，与杭州深度求索人工智能基础技术研究有限公司及 DeepSeek 官方没有隶属、合作、授权或背书关系。\\n\\n“DeepSeek”是其权利人的商标，本项目中仅用于说明所连接的 API 服务。App 内的鲸鱼图形是原创占位图形，不包含官方素材。"
+  },
+  "ds_about_data_title": {
+    "en": "Where your data lives",
+    "zh-CN": "数据在哪里"
+  },
+  "ds_about_data_body": {
+    "en": "Conversations, messages, settings and the API key are stored only on this phone. System backup and device-to-device transfer are disabled for this app. We do not run an account server or a cloud database. Messages are sent directly to api.deepseek.com when you chat; that is unavoidable when using the API. To switch phones, export your conversations to a ZIP on the old device and import it on the new one. Uninstalling the app or clearing app data will permanently lose local conversations.",
+    "zh-CN": "对话、消息、设置和 API Key 只存储在这台手机上。本 App 已禁止 Android 系统备份与换机迁移；本项目不运营账号服务器，也没有云端数据库；我们看不到你的聊天记录，也无法替你恢复。\\n\\n发送消息时，App 会把对话内容直接发送到 api.deepseek.com，由 DeepSeek 的服务器处理。这是使用 API 无法绕开的一步。\\n\\n换机时请在旧设备导出对话 ZIP，再在新设备导入。卸载 App 或清除应用数据会导致本机对话永久丢失。"
+  },
+  "ds_about_cost_title": {
+    "en": "Cost",
+    "zh-CN": "关于费用"
+  },
+  "ds_about_cost_body": {
+    "en": "This app is free; it does not sell keys or top-ups. DeepSeek bills API usage directly to your account balance. Web search and link reading also incur official charges. Top up on the DeepSeek platform if your balance is low.",
+    "zh-CN": "本 App 不收费、不代充、不卖 Key、不抽成。API 的使用费用由 DeepSeek 按实际用量计费，直接从你的 DeepSeek 账户余额中扣除。\\n\\n联网搜索、阅读链接等工具调用也会产生官方费用。余额不足时，请前往 DeepSeek 开放平台充值；本 App 不提供绕过官方计费的“免费额度”。"
+  },
+  "ds_about_unlimited_title": {
+    "en": "What “unlimited” means",
+    "zh-CN": "“无限制”到底指什么"
+  },
+  "ds_about_unlimited_body": {
+    "en": "It means this app imposes no message count, duration, edit count or retention limit. It does not mean the API is free or has unlimited tokens, nor does it override DeepSeek's balance, rate limits, risk controls or account policies.",
+    "zh-CN": "它只表示：这个 App 不设置次数、时长、修改次数或对话保留期限的限制。没有“今天聊够了”的提示，也不会因为你几天没来就清空对话。\\n\\n它不表示 API 永久免费、无限 token，或不受 DeepSeek 的余额、速率限制、风控与账号政策约束。那些边界仍然存在，而且由 DeepSeek 决定。"
+  },
+  "ds_about_risk_title": {
+    "en": "Risks you accept",
+    "zh-CN": "你需要自己承担的风险"
+  },
+  "ds_about_risk_body": {
+    "en": "AI output may be wrong; verify it and do not treat it as medical, legal or financial advice. Do not use the app for illegal activity. You are responsible for losses caused by your usage, a leaked API key, or account restrictions. Never share your API key.",
+    "zh-CN": "AI 生成的内容可能出错，请自行核实，不要把它当作医疗、法律或财务建议。\\n\\n请勿使用本 App 从事违法活动。因使用方式、API Key 泄露、账号被限制或封禁造成的损失，需由使用者自行承担。\\n\\nAPI Key 一旦泄露，他人可以花掉你账户里的钱。不要把 Key 发给任何人，也不要截图分享。"
+  },
+  "ds_about_license_title": {
+    "en": "Open source & license",
+    "zh-CN": "开源与许可"
+  },
+  "ds_about_license_body": {
+    "en": "This project is based on the open-source GPT Mobile project. Upstream uses GPL-3.0, so this project is released under GNU GPL-3.0, not MIT. You may view, modify and distribute the code under GPL-3.0; redistributed modified versions must keep the same license and source availability.",
+    "zh-CN": "本项目基于开源项目 GPT Mobile 裁剪而来。上游使用 GPL-3.0，因此本项目的代码同样以 GNU GPL-3.0 发布，而不是 MIT。\\n\\n你可以在 GPL-3.0 的范围内查看、修改和分发代码；分发修改版时，需要保留同样的许可与源代码获取方式。"
+  },
+  "ds_about_view_license": {
+    "en": "View GPL-3.0 license",
+    "zh-CN": "查看 GPL-3.0 许可证"
+  },
+  "ds_about_version": {
+    "en": "DeepSeek Unlimited v%1$s · unofficial client",
+    "zh-CN": "DeepSeek 无限制版 v%1$s · 非官方客户端"
+  },
+  "ds_untitled": {
+    "en": "Untitled conversation",
+    "zh-CN": "未命名对话"
+  },
+  "ds_unknown_error": {
+    "en": "Unknown error",
+    "zh-CN": "未知错误"
+  },
+  "ds_settings_language_current": {
+    "en": "Current language",
+    "zh-CN": "当前语言"
+  },
+  "ds_settings_dark_fixed": {
+    "en": "Dark appearance is fixed in this version.",
+    "zh-CN": "当前版本固定为深色外观"
+  },
+  "ds_settings_font_standard": {
+    "en": "Using the standard font size.",
+    "zh-CN": "当前使用标准字号"
+  },
+  "ds_settings_tts_system": {
+    "en": "Read aloud uses the system TTS voice.",
+    "zh-CN": "朗读使用系统 TTS 音色"
+  }
+}

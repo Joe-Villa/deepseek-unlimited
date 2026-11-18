@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="DeepSeek Unlimited（DeepSeek 无限制版）">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0D14"/>
+      <stop offset="0.55" stop-color="#0D1220"/>
+      <stop offset="1" stop-color="#101A2E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.12" cy="0.15" r="0.75">
+      <stop offset="0" stop-color="#4D6BFE" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#4D6BFE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4D6BFE"/>
+      <stop offset="1" stop-color="#8FA8FF"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.1" fill="#7C9BFF" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#bg)"/>
+  <rect width="1280" height="340" fill="url(#dots)"/>
+  <rect width="1280" height="340" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="339" fill="none" stroke="#1C2740" stroke-width="1"/>
+
+  <g transform="translate(1030,178)">
+    <path d="M -100 0 C -100 -55 -40 -55 0 0 C 40 55 100 55 100 0 C 100 -55 40 -55 0 0 C -40 55 -100 55 -100 0 Z"
+          fill="none" stroke="url(#accent)" stroke-width="15" stroke-linecap="round" opacity="0.32"/>
+  </g>
+
+  <text x="80" y="102" font-family="'Noto Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei',system-ui,sans-serif"
+        font-size="15" letter-spacing="3" fill="#6E7FA6">免费 · 无广告 · 只为想找人说说话的人</text>
+
+  <text x="80" y="188" font-family="'Noto Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei',system-ui,sans-serif"
+        font-size="64" font-weight="800" fill="#F2F5FF">DeepSeek Unlimited</text>
+
+  <rect x="80" y="210" width="76" height="6" rx="3" fill="url(#accent)"/>
+
+  <text x="80" y="272" font-family="'Noto Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei',system-ui,sans-serif"
+        font-size="24" fill="#A7B3CC">DeepSeek 无限制版 · 没有上限。没有注册。你的对话，只留在你手机里。</text>
+</svg>
