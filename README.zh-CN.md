@@ -145,7 +145,7 @@ apksigner verify --print-certs deepseek-unlimited-0.11.3.apk
 OK: rebuilt APK is byte-identical to the published APK.
 ```
 
-如果源码被改动、工具链版本不同，或者发布包被替换，这一步就会失败。省略路径时，脚本默认使用 `dist/deepseek-unlimited-0.11.3.apk`。
+如果源码被改动、工具链版本不同，或者发布包被替换，这一步就会失败。省略路径时，脚本默认使用 `dist/deepseek-unlimited-0.11.3.apk`；如果要用这个默认值，请把下载的 APK 放到那里。
 
 完整的构建说明、工具链版本和已知限制见 [REPRODUCIBLE.md](REPRODUCIBLE.md)。
 

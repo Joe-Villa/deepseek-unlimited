@@ -145,7 +145,7 @@ On success it ends with:
 OK: rebuilt APK is byte-identical to the published APK.
 ```
 
-If the source was changed, the toolchain differs, or the release APK was replaced, this step fails. The script falls back to `dist/deepseek-unlimited-0.11.3.apk` if you omit the path.
+If the source was changed, the toolchain differs, or the release APK was replaced, this step fails. If you omit the path, the script falls back to `dist/deepseek-unlimited-0.11.3.apk`; put the downloaded APK there if you want that default.
 
 See [REPRODUCIBLE.md](REPRODUCIBLE.md) for the full build description, toolchain versions and known limits.
 

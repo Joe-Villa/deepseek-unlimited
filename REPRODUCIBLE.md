@@ -42,7 +42,7 @@ v2 签名在 Android 7.0+ 有效，本项目 `minSdk 31`，不影响安装。
 ./scripts/reproduce-release.sh /path/to/deepseek-unlimited-0.11.3.apk
 ```
 
-APK 从 GitHub Releases 下载；仓库不存放安装包。省略路径时，脚本默认使用 `dist/deepseek-unlimited-0.11.3.apk`。
+APK 从 GitHub Releases 下载；仓库不存放安装包。省略路径时，脚本默认使用 `dist/deepseek-unlimited-0.11.3.apk`；如果要用这个默认值，请把下载的 APK 放到那里。
 
 脚本会：
 
