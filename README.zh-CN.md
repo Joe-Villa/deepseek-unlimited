@@ -123,7 +123,7 @@ apksigner verify --print-certs deepseek-unlimited-0.11.3.apk
 
 #### C. 10 分钟：从源码完整复现（最强证明）
 
-先安装 JDK 17，克隆本仓库，从 Releases 下载 APK，然后在仓库根目录执行：
+先安装 JDK 17 和 Android SDK build-tools 37.0.0，克隆本仓库，从 Releases 下载 APK，然后在仓库根目录执行：
 
 ```bash
 # Linux / macOS；Windows 建议用 WSL

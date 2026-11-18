@@ -123,7 +123,7 @@ Expected certificate SHA-256:
 
 #### C. 10 minutes: reproduce from source (strongest proof)
 
-Install JDK 17, clone this repository, download the release APK, and run this from the repository root:
+Install JDK 17 and Android SDK build-tools 37.0.0, clone this repository, download the release APK, and run this from the repository root:
 
 ```bash
 # Linux / macOS; on Windows, use WSL
